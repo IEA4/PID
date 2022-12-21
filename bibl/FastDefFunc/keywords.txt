@@ -1,0 +1,25 @@
+#######################################
+# Syntax Coloring Map For GyverUART
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+FastDefFunc	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+pinModeFast		KEYWORD2
+digitalReadFast		KEYWORD2
+digitalWriteFast	KEYWORD2
+analogReadFast		KEYWORD2
+analogWriteFast		KEYWORD2
+
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
