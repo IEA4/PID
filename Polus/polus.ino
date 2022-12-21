@@ -26,6 +26,3 @@ void isr()
     HOLL_N++;
 }
 
-void new_function(){
-
-}
