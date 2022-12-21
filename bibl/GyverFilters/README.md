@@ -4,7 +4,7 @@
 
 # GyverFilters
 GyverFilters - библиотека с некоторыми удобными фильтрами для Arduino
-- GFilterRA - компактная альтернатива фильтра экспоненциальное бегущее среднее (Running Average)			
+- GFilterRA - компактная альтернатива фильтра экспоненциальное бегущее среднее (Running Average)
 - GMedian3 - быстрый медианный фильтр 3-го порядка (отсекает выбросы)
 - GMedian - медианный фильтр N-го порядка. Порядок настраивается в GyverFilters.h - MEDIAN_FILTER_SIZE
 - GABfilter - альфа-бета фильтр (разновидность Калмана для одномерного случая)
@@ -52,9 +52,9 @@ void setParameters(float delta, float sigma_process, float sigma_noise);
 
 // возвращает фильтрованное значение
 float filtered(float value);
-    
+
 // ========== FAST FILTER FastFilter.h ==========
-FastFilter; 
+FastFilter;
 FastFilter(uint8_t k = 20);                     // коэффициент 0-31, dt 0
 FastFilter(uint8_t k = 20, uint16_t dt = 0);    // коэффициент 0-31, dt в миллисекундах
 
@@ -119,6 +119,7 @@ float filteredTime(float value);            // получить результа
 float filtered(float value);                // получить результат сейчас
 ```
 
+
 <a id="versions"></a>
 ## Версии
 - v1.6 от 12.11.2019
@@ -137,5 +138,5 @@ float filtered(float value);                // получить результа
 
 <a id="feedback"></a>
 ## Баги и обратная связь
-При нахождении багов создавайте **Issue**, а лучше сразу пишите на почту [alex@alexgyver.ru](mailto:alex@alexgyver.ru)  
+При нахождении багов создавайте **Issue**, а лучше сразу пишите на почту [alex@alexgyver.ru](mailto:alex@alexgyver.ru)
 Библиотека открыта для доработки и ваших **Pull Request**'ов!
